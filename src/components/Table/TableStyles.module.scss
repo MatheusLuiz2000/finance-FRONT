@@ -1,0 +1,57 @@
+.containerTable {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+  -moz-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+  overflow-y: auto;
+  max-height: 830px;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Questrial';
+  }
+
+  th {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #1E1E2D;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .headerResponse:first-child {
+    width: 450px;
+  }
+
+  .headerResponse:nth-child(2) {
+    width: 200px;
+  }
+
+  .headerResponse:nth-child(3) {
+    width: 170px;
+  }
+
+  .headerResponse:nth-child(4) {
+    width: 120px;
+  }
+
+  .headerResponse:nth-child(5) {
+    width: 180px;
+  }
+
+  td {
+    font-family: 'Questrial';
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.4;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+}

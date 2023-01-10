@@ -1,0 +1,29 @@
+.label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1e1e2d;
+  margin-bottom: 9px;
+}
+
+.input {
+  display: block;
+  border: none;
+  background-color: #ffff;
+  border-radius: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 15px;
+  color: #a1a2af;
+  padding: 12px 18px;
+  outline: none;
+
+  &:active,
+  &:hover {
+    border: none;
+  }
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
